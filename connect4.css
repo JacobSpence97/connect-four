@@ -59,7 +59,7 @@ p {
 }
 
 .falling {
-    transition: all 150ms;
+    transition: all 300ms;
 }
 .red {
     background-image: url("img/devil.png");

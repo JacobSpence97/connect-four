@@ -143,7 +143,7 @@ function playMove(row, column, playedPiece, color) {
       WIN_SOUND.play();
 
 $("body").children().remove();
-      $("body").append("<iframe src=\"https://www.youtube.com/embed/lmwPRzEUHMg?autoplay=1\" width=\"999\" height=\"700\" frameborder=\"0\" allowfullscreen></iframe>");
+      $("body").append("<iframe src=\"https://www.youtube.com/embed/lmwPRzEUHMg?autoplay=1\" width=\"1350\" height=\"790\" frameborder=\"0\" allowfullscreen></iframe>");
 
     }, 250);
     playerSpan.textContent = "Player " + turn + " WINS!!!";
